@@ -14,7 +14,7 @@ fi
 adduser -D -u $USER_ID user
 export HOME=/home/user
 
-if [ -z $@ ]; then
+if [ -z $1 ]; then
 	exec su-exec user bash
 else
 	exec su-exec user "$@"
