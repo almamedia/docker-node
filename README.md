@@ -5,10 +5,9 @@
 
 #### Running node.js script:
 ```
-docker run --rm -it \
+docker run --rm \
  -e LOCAL_USER_ID=`id -u $USER`\
- -v ~/my_local_folder:/home/user/project \
- -w /home/user/project \
+ -v ~/script_folder:/app \
   conmio/node node script.js
  ```
 ---
