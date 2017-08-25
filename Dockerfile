@@ -1,4 +1,4 @@
-FROM node:6.11-alpine
+FROM node:8.4-alpine
 MAINTAINER Conmio developers
 RUN apk --no-cache update && \
     apk --no-cache add less bash make curl openssl su-exec
