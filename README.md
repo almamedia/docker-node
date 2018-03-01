@@ -8,7 +8,7 @@
 docker run --rm \
  -e LOCAL_USER_ID=`id -u $USER`\
  -v ~/script_folder:/app \
-  conmio/node node script.js
+  conmio/node:8-alpine node script.js
  ```
 ---
 
