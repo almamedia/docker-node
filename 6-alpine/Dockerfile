@@ -1,5 +1,5 @@
 FROM node:6-alpine
-MAINTAINER Conmio developers
+MAINTAINER almatalent
 RUN apk --no-cache update && \
     apk --no-cache add less bash make curl openssl su-exec
 
